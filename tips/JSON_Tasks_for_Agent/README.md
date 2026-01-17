@@ -101,10 +101,9 @@ Use structured JSON to give AI agents precise, parseable instructions that reduc
 
 Execute tasks SEQUENTIALLY. For each step:
 
-1. Run exact command from subtasks array
-2. Capture ALL output/error
-3. Update output_format JSON only
-4. Move to next step ONLY if status=completed
+* Capture ALL output/error
+* Update output_format JSON only
+* Move to next step ONLY if status=completed
 
 Respond ONLY with output_format JSON. Never free text.
 ```
