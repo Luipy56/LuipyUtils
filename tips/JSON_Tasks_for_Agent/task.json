@@ -1,0 +1,36 @@
+{
+  "name": "Example name",
+  "tasks": [
+    {
+      "name": "Example name",
+      "subtasks": [
+        "Example subtask",
+        "Example subtask" 
+      ]
+    },
+    {
+      "name": "Example name",
+      "subtasks": [
+        "Example subtask",
+        "Example subtask" 
+      ]
+    }
+  ],
+  "musts": [
+    "Example condition",
+    "Example condition" 
+  ],
+  "output_format": {
+    "status": "pending|in_progress|completed|error",
+    "current_task": 0,
+    "current_subtask": 0,
+    "log": [],
+    "command_output": "",
+    "failed_command": "",
+    "next_action": "Next step or 'COMPLETED'",
+    "files_created": [],
+    "dirs_created": [],
+    "services_running": [],
+    "errors": []
+  }
+}
